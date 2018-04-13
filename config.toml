@@ -1,3 +1,33 @@
 baseURL = "https://edgecube.io/"
 languageCode = "en-us"
-title = "Kai Mies - Software Developer"
+
+DefaultContentLanguage = "en"
+
+[languages]
+    [languages.en]
+        title = "Kai Mies - Software Developer"
+        [languages.en.params]
+            [languages.en.params.navigation]
+                home = "Home"
+                portfolio = "Portfolio"
+                contact = "Contact"
+            [languages.en.params.footer]
+                imprint = "Imprint"
+                contactSocialMedia = "Contact / Social Media"
+    [languages.de]
+        title = "Kai Mies - Softwareentwickler"
+        [languages.de.params]
+            [languages.de.params.navigation]
+                home = "Home"
+                portfolio = "Portfolio"
+                contact = "Kontakt"
+            [languages.de.params.footer]
+                imprint = "Impressum"
+                contactSocialMedia = "Kontakt / Soziale Medien"
+
+[params]
+twitterName = "kai_mies"
+githubName = "kaimies"
+linkedInName = "kaimies"
+email = "&#99;&#111;&#110;&#116;&#97;&#99;&#116;&#64;&#101;&#100;&#103;&#101;&#99;&#117;&#98;&#101;&#46;&#105;&#111;"
+phone = "&#43;&#52;&#57;&#49;&#53;&#55;&#55;&#56;&#57;&#54;&#49;&#49;&#49;&#55;"
